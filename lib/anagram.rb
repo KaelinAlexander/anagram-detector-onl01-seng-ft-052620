@@ -7,7 +7,7 @@ def initialize(word)
   @candidate = word
 end
 
-def match(%w(some_words))
+def match(%w(some words))
   can_string = candidate.scan
   binding.pry
   list_string = list.scan
