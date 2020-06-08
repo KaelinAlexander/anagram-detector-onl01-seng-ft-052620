@@ -1,11 +1,10 @@
 require "pry"
 
 class Anagram
-attr_accessor :candidate, :list
+attr_accessor :candidate
 
 def initialize(word)
   @candidate = word
-  @list = %w(some words)
 end
 
 def match(%w(some_words))
