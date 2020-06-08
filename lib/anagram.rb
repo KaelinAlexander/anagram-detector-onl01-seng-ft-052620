@@ -7,4 +7,4 @@ def initialize(word)
 end
 
 def match
-  
+  can_string = @candidate.
