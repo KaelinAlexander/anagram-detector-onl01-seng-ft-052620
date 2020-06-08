@@ -7,4 +7,8 @@ def initialize(word)
 end
 
 def match
-  can_string = @candidate.
+  can_string = @candidate.scan /\w/
+  list_string = @list.scan /\w/
+end
+
+end
