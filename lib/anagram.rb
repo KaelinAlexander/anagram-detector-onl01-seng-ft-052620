@@ -9,9 +9,9 @@ def initialize(word)
 end
 
 def match
-  can_string = candidate.scan /\w/
+  can_string = candidate.scan
   binding.pry
-  list_string = list.scan /\w/
+  list_string = list.scan
 end
 
 end
